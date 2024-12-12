@@ -1,0 +1,83 @@
+[0.225s] Invoking command in '/home/tejaswini/ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble /usr/bin/cmake /home/tejaswini/ros2_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejaswini/ros2_ws/install/joint_limits
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.323s] -- The CXX compiler identification is GNU 11.4.0
+[0.332s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.433s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.552s] -- Detecting CXX compile features
+[0.553s] -- Detecting CXX compile features - done
+[0.556s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.780s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.812s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.853s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.857s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.865s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.877s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.933s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.935s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.018s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.048s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.109s] -- Looking for pthread.h
+[1.179s] -- Looking for pthread.h - found
+[1.179s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.267s] -- Found Threads: TRUE  
+[1.334s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.353s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.355s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.357s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.378s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.384s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.384s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.384s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.384s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.404s] -- Found PythonExtra: .so  
+[1.406s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.467s] -- Configuring done
+[1.474s] -- Generating done
+[1.477s] -- Build files have been written to: /home/tejaswini/ros2_ws/build/joint_limits
+[1.487s] Invoked command in '/home/tejaswini/ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble /usr/bin/cmake /home/tejaswini/ros2_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejaswini/ros2_ws/install/joint_limits
+[1.488s] Invoking command in '/home/tejaswini/ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tejaswini/ros2_ws/build/joint_limits -- -j16 -l16
+[1.541s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.542s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.485s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.521s] [ 50%] Built target gtest_main
+[4.161s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.208s] [ 66%] Built target gtest
+[4.226s] [ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[12.269s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[12.709s] [100%] Built target joint_limits_rosparam_test
+[12.745s] Invoked command in '/home/tejaswini/ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble /usr/bin/cmake --build /home/tejaswini/ros2_ws/build/joint_limits -- -j16 -l16
+[12.752s] Invoking command in '/home/tejaswini/ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tejaswini/ros2_ws/build/joint_limits
+[12.770s] -- Install configuration: ""
+[12.771s] -- Execute custom install script
+[12.775s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/include/joint_limits/joint_limits.hpp
+[12.805s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/include/joint_limits/joint_limits_rosparam.hpp
+[12.833s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[12.864s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[12.895s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[12.932s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[12.959s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[12.992s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[13.024s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[13.056s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[13.094s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[13.124s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[13.159s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[13.189s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[13.223s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/package.dsv
+[13.257s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[13.291s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.320s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.348s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[13.383s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[13.415s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_limits/share/joint_limits/package.xml
+[13.434s] Invoked command in '/home/tejaswini/ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble /usr/bin/cmake --install /home/tejaswini/ros2_ws/build/joint_limits

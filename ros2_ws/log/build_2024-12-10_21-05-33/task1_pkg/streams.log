@@ -1,0 +1,21 @@
+[0.381s] Invoking command in '/home/tejaswini/ros2_ws/src/task1_pkg': PYTHONPATH=/home/tejaswini/ros2_ws/build/task1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task1_pkg build --build-base /home/tejaswini/ros2_ws/build/task1_pkg/build install --record /home/tejaswini/ros2_ws/build/task1_pkg/install.log --single-version-externally-managed install_data
+[0.521s] running egg_info
+[0.522s] writing ../../build/task1_pkg/task1_pkg.egg-info/PKG-INFO
+[0.522s] writing dependency_links to ../../build/task1_pkg/task1_pkg.egg-info/dependency_links.txt
+[0.522s] writing entry points to ../../build/task1_pkg/task1_pkg.egg-info/entry_points.txt
+[0.522s] writing requirements to ../../build/task1_pkg/task1_pkg.egg-info/requires.txt
+[0.522s] writing top-level names to ../../build/task1_pkg/task1_pkg.egg-info/top_level.txt
+[0.523s] reading manifest file '../../build/task1_pkg/task1_pkg.egg-info/SOURCES.txt'
+[0.523s] writing manifest file '../../build/task1_pkg/task1_pkg.egg-info/SOURCES.txt'
+[0.523s] running build
+[0.524s] running build_py
+[0.524s] running install
+[0.524s] running install_lib
+[0.524s] running install_data
+[0.524s] copying launch/bot_launch.py -> /home/tejaswini/ros2_ws/install/task1_pkg/share/task1_pkg/launch
+[0.524s] running install_egg_info
+[0.526s] removing '/home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.526s] Copying ../../build/task1_pkg/task1_pkg.egg-info to /home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg-0.0.0-py3.10.egg-info
+[0.526s] running install_scripts
+[0.540s] writing list of installed files to '/home/tejaswini/ros2_ws/build/task1_pkg/install.log'
+[0.555s] Invoked command in '/home/tejaswini/ros2_ws/src/task1_pkg' returned '0': PYTHONPATH=/home/tejaswini/ros2_ws/build/task1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task1_pkg build --build-base /home/tejaswini/ros2_ws/build/task1_pkg/build install --record /home/tejaswini/ros2_ws/build/task1_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,120 @@
+[0.054s] Invoking command in '/home/tejaswini/ros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tejaswini/ros2_ws/src/ros-controls/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejaswini/ros2_ws/install/transmission_interface
+[0.297s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.704s] -- Detecting C compiler ABI info
+[0.993s] -- Detecting C compiler ABI info - done
+[1.002s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.002s] -- Detecting C compile features
+[1.003s] -- Detecting C compile features - done
+[1.006s] -- Detecting CXX compiler ABI info
+[1.286s] -- Detecting CXX compiler ABI info - done
+[1.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.298s] -- Detecting CXX compile features
+[1.299s] -- Detecting CXX compile features - done
+[1.301s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.644s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.724s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.777s] -- Found hardware_interface: 2.45.0 (/home/tejaswini/ros2_ws/install/hardware_interface/share/hardware_interface/cmake)
+[1.956s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.962s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.971s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.232s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.235s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.264s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.394s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.398s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.437s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.440s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.453s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.505s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.515s] -- Looking for pthread.h
+[2.710s] -- Looking for pthread.h - found
+[2.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.926s] -- Found Threads: TRUE  
+[2.987s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.989s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.994s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.995s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.177s] -- Configuring done
+[3.688s] -- Generating done
+[3.715s] -- Build files have been written to: /home/tejaswini/ros2_ws/build/transmission_interface
+[3.746s] Invoked command in '/home/tejaswini/ros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tejaswini/ros2_ws/src/ros-controls/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejaswini/ros2_ws/install/transmission_interface
+[3.757s] Invoking command in '/home/tejaswini/ros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tejaswini/ros2_ws/build/transmission_interface -- -j16 -l16
+[3.918s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.918s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.918s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.946s] [ 17%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/simple_transmission_loader.cpp.o[0m
+[3.949s] [ 21%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/differential_transmission_loader.cpp.o[0m
+[4.031s] [ 26%] [32mBuilding CXX object CMakeFiles/transmission_interface.dir/src/four_bar_linkage_transmission_loader.cpp.o[0m
+[8.796s] [ 30%] [32m[1mLinking CXX static library libgmock.a[0m
+[9.146s] [ 30%] Built target gmock
+[10.241s] [ 34%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[10.373s] [ 34%] Built target gmock_main
+[10.406s] [ 39%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission_loader.dir/test/four_bar_linkage_transmission_loader_test.cpp.o[0m
+[10.411s] [ 43%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils_test.cpp.o[0m
+[10.434s] [ 47%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[10.455s] [ 52%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[10.461s] [ 56%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[10.466s] [ 60%] [32mBuilding CXX object CMakeFiles/test_differential_transmission_loader.dir/test/differential_transmission_loader_test.cpp.o[0m
+[10.500s] [ 65%] [32mBuilding CXX object CMakeFiles/test_simple_transmission_loader.dir/test/simple_transmission_loader_test.cpp.o[0m
+[11.478s] [ 69%] [32m[1mLinking CXX shared library libtransmission_interface.so[0m
+[11.675s] [ 69%] Built target transmission_interface
+[13.091s] [ 73%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[13.592s] [ 73%] Built target test_four_bar_linkage_transmission
+[14.649s] [ 78%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[15.145s] [ 78%] Built target test_simple_transmission
+[16.106s] [ 82%] [32m[1mLinking CXX executable test_simple_transmission_loader[0m
+[16.741s] [ 82%] Built target test_simple_transmission_loader
+[16.928s] [ 86%] [32m[1mLinking CXX executable test_differential_transmission_loader[0m
+[16.983s] [ 91%] [32m[1mLinking CXX executable test_utils[0m
+[17.510s] [ 91%] Built target test_differential_transmission_loader
+[17.557s] [ 95%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[17.603s] [ 95%] Built target test_utils
+[18.052s] [ 95%] Built target test_differential_transmission
+[24.906s] [100%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission_loader[0m
+[25.450s] [100%] Built target test_four_bar_linkage_transmission_loader
+[25.477s] Invoked command in '/home/tejaswini/ros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tejaswini/ros2_ws/build/transmission_interface -- -j16 -l16
+[25.480s] Invoking command in '/home/tejaswini/ros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tejaswini/ros2_ws/build/transmission_interface
+[25.495s] -- Install configuration: ""
+[25.496s] -- Execute custom install script
+[25.496s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[25.506s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[25.516s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[25.529s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[25.540s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[25.555s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[25.571s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[25.596s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[25.610s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[25.624s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[25.636s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[25.657s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[25.668s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[25.690s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface//ros2_control_plugins.xml
+[25.699s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[25.715s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[25.725s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[25.737s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[25.752s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[25.768s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[25.784s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[25.804s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[25.820s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[25.836s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[25.847s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[25.858s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[25.873s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[25.892s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[25.908s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[25.925s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.946s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.957s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[25.972s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[25.988s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[26.004s] -- Symlinking: /home/tejaswini/ros2_ws/install/transmission_interface/share/transmission_interface/package.xml
+[26.021s] -- Installing: /home/tejaswini/ros2_ws/install/transmission_interface/lib/libtransmission_interface.so
+[26.021s] -- Set runtime path of "/home/tejaswini/ros2_ws/install/transmission_interface/lib/libtransmission_interface.so" to ""
+[26.024s] Invoked command in '/home/tejaswini/ros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tejaswini/ros2_ws/build/transmission_interface

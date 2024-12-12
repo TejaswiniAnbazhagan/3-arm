@@ -1,0 +1,291 @@
+[0.865s] Invoking command in '/home/tejaswini/ros2_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/controller_manager/lib:/home/tejaswini/ros2_ws/install/hardware_interface_testing/lib:/home/tejaswini/ros2_ws/install/controller_interface/lib:/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_toolbox/lib:/home/tejaswini/ros2_ws/install/realtime_tools/lib:/home/tejaswini/ros2_ws/install/controller_manager_msgs/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejaswini/ros2_ws/install/joint_trajectory_controller
+[0.982s] -- The CXX compiler identification is GNU 11.4.0
+[1.018s] -- Detecting CXX compiler ABI info
+[1.206s] -- Detecting CXX compiler ABI info - done
+[1.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.224s] -- Detecting CXX compile features
+[1.225s] -- Detecting CXX compile features - done
+[1.227s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.509s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.625s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.852s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.857s] -- Found control_msgs: 4.7.0 (/home/tejaswini/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[1.936s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.948s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.974s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.282s] -- Found control_toolbox: 3.4.0 (/home/tejaswini/ros2_ws/install/control_toolbox/share/control_toolbox/cmake)
+[2.371s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.374s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.846s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.031s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.263s] -- Looking for C++ include pthread.h
+[3.874s] -- Looking for C++ include pthread.h - found
+[3.874s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.132s] -- Found Threads: TRUE  
+[4.238s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.270s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.335s] -- Found controller_interface: 2.45.0 (/home/tejaswini/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[4.386s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[4.387s] -- Found controller_manager: 2.45.0 (/home/tejaswini/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[4.424s] -- Found ros2_control_test_assets: 2.45.0 (/home/tejaswini/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[4.429s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.494s] -- The C compiler identification is GNU 11.4.0
+[4.510s] -- Detecting C compiler ABI info
+[4.708s] -- Detecting C compiler ABI info - done
+[4.718s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.718s] -- Detecting C compile features
+[4.719s] -- Detecting C compile features - done
+[4.728s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.729s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.775s] -- Configuring done
+[6.059s] -- Generating done
+[6.151s] -- Build files have been written to: /home/tejaswini/ros2_ws/build/joint_trajectory_controller
+[6.293s] Invoked command in '/home/tejaswini/ros2_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/controller_manager/lib:/home/tejaswini/ros2_ws/install/hardware_interface_testing/lib:/home/tejaswini/ros2_ws/install/controller_interface/lib:/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_toolbox/lib:/home/tejaswini/ros2_ws/install/realtime_tools/lib:/home/tejaswini/ros2_ws/install/controller_manager_msgs/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejaswini/ros2_ws/install/joint_trajectory_controller
+[6.312s] Invoking command in '/home/tejaswini/ros2_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/controller_manager/lib:/home/tejaswini/ros2_ws/install/hardware_interface_testing/lib:/home/tejaswini/ros2_ws/install/controller_interface/lib:/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_toolbox/lib:/home/tejaswini/ros2_ws/install/realtime_tools/lib:/home/tejaswini/ros2_ws/install/controller_manager_msgs/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tejaswini/ros2_ws/build/joint_trajectory_controller -- -j16 -l16
+[9.608s] [  5%] [34m[1mRunning `/usr/bin/cmake -E copy /home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/validate_jtc_parameters.hpp /home/tejaswini/ros2_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/validate_jtc_parameters.hpp`[0m
+[9.613s] [ 10%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/tejaswini/ros2_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include//joint_trajectory_controller_parameters.hpp /home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller_parameters.yaml validate_jtc_parameters.hpp`[0m
+[9.614s] [ 15%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[9.615s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[9.616s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[11.169s] [ 25%] Built target joint_trajectory_controller_parameters
+[11.383s] [ 30%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[11.529s] [ 35%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[12.931s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/control_toolbox/include/control_toolbox/pid.hpp:41[m[K,
+[12.931s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+[12.931s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:15[m[K:
+[12.932s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[12.932s]    25 | #[01;35m[Kwarning[m[K \
+[12.932s]       |  [01;35m[K^~~~~~~[m[K
+[14.281s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:42[m[K,
+[14.282s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:15[m[K:
+[14.287s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[14.288s]    25 | #[01;35m[Kwarning[m[K \
+[14.289s]       |  [01;35m[K^~~~~~~[m[K
+[14.289s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:43[m[K,
+[14.290s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:15[m[K:
+[14.295s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_server_goal_handle.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[14.297s]    25 | #[01;35m[Kwarning[m[K \
+[14.298s]       |  [01;35m[K^~~~~~~[m[K
+[15.378s] [ 40%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[15.987s] [ 40%] Built target gmock_main
+[30.401s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[30.698s] [ 45%] Built target gmock
+[31.669s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[31.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[31.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[31.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[31.670s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[31.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[31.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[31.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[31.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[31.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[31.671s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[31.671s]                  from [01m[K/home/tejaswini/ros2_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[31.671s]                  from [01m[K/home/tejaswini/ros2_ws/install/controller_interface/include/controller_interface/controller_interface.hpp:22[m[K,
+[31.672s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:28[m[K,
+[31.672s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:15[m[K:
+[31.675s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:[m[K In function ‘[01m[Kbool joint_trajectory_controller::check_state_tolerance_per_joint(const JointTrajectoryPoint&, size_t, const joint_trajectory_controller::StateTolerances&, bool)[m[K’:
+[31.675s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[31.675s]   319 |     RCLCPP_ERROR(logger, [01;35m[K"State tolerances failed for joint %d:"[m[K, [32m[Kjoint_idx[m[K);
+[31.675s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+[31.675s]       |                                                                   [32m[K|[m[K
+[31.675s]       |                                                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[31.675s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:31[m[K,
+[31.676s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/src/joint_trajectory_controller.cpp:15[m[K:
+[31.676s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[31.676s]   319 |    RCLCPP_ERROR(logger, "State tolerances failed for joint [01;36m[K%d[m[K:", joint_idx);
+[31.676s]       |                                                            [01;36m[K~^[m[K
+[31.676s]       |                                                             [01;36m[K|[m[K
+[31.676s]       |                                                             [01;36m[Kint[m[K
+[31.676s]       |                                                            [32m[K%ld[m[K
+[62.969s] [ 50%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[64.507s] [ 50%] Built target joint_trajectory_controller
+[64.536s] [ 55%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[85.978s] [ 60%] [32m[1mLinking CXX executable test_trajectory[0m
+[87.366s] [ 60%] Built target test_trajectory
+[87.438s] [ 65%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[90.072s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/control_toolbox/include/control_toolbox/pid.hpp:41[m[K,
+[90.072s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+[90.072s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:49[m[K:
+[90.072s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[90.072s]    25 | #[01;35m[Kwarning[m[K \
+[90.072s]       |  [01;35m[K^~~~~~~[m[K
+[90.298s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:42[m[K,
+[90.299s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:49[m[K:
+[90.300s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[90.301s]    25 | #[01;35m[Kwarning[m[K \
+[90.301s]       |  [01;35m[K^~~~~~~[m[K
+[90.304s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:43[m[K,
+[90.304s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:49[m[K:
+[90.304s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_server_goal_handle.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[90.304s]    25 | #[01;35m[Kwarning[m[K \
+[90.304s]       |  [01;35m[K^~~~~~~[m[K
+[102.726s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[102.726s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[102.727s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[102.728s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[102.728s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[102.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[102.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[102.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[102.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[102.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[102.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[102.733s]                  from [01m[K/home/tejaswini/ros2_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[102.733s]                  from [01m[K/home/tejaswini/ros2_ws/install/controller_interface/include/controller_interface/controller_interface.hpp:22[m[K,
+[102.734s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:31[m[K:
+[102.734s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:[m[K In function ‘[01m[Kbool joint_trajectory_controller::check_state_tolerance_per_joint(const JointTrajectoryPoint&, size_t, const joint_trajectory_controller::StateTolerances&, bool)[m[K’:
+[102.735s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[102.736s]   319 |     RCLCPP_ERROR(logger, [01;35m[K"State tolerances failed for joint %d:"[m[K, [32m[Kjoint_idx[m[K);
+[102.736s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+[102.737s]       |                                                                   [32m[K|[m[K
+[102.737s]       |                                                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[102.738s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:31[m[K,
+[102.738s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_actions.cpp:49[m[K:
+[102.739s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[102.740s]   319 |    RCLCPP_ERROR(logger, "State tolerances failed for joint [01;36m[K%d[m[K:", joint_idx);
+[102.740s]       |                                                            [01;36m[K~^[m[K
+[102.741s]       |                                                             [01;36m[K|[m[K
+[102.741s]       |                                                             [01;36m[Kint[m[K
+[102.742s]       |                                                            [32m[K%ld[m[K
+[112.930s] [ 70%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[114.904s] [ 70%] Built target test_trajectory_actions
+[114.962s] [ 75%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[115.060s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[115.296s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/control_toolbox/include/control_toolbox/pid.hpp:41[m[K,
+[115.296s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+[115.296s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K,
+[115.296s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:48[m[K:
+[115.296s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[115.296s]    25 | #[01;35m[Kwarning[m[K \
+[115.296s]       |  [01;35m[K^~~~~~~[m[K
+[115.337s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:42[m[K,
+[115.337s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K,
+[115.337s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:48[m[K:
+[115.337s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[115.337s]    25 | #[01;35m[Kwarning[m[K \
+[115.337s]       |  [01;35m[K^~~~~~~[m[K
+[115.338s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:43[m[K,
+[115.338s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K,
+[115.338s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:48[m[K:
+[115.338s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_server_goal_handle.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[115.338s]    25 | #[01;35m[Kwarning[m[K \
+[115.338s]       |  [01;35m[K^~~~~~~[m[K
+[131.814s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[131.814s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[131.815s]                  from [01m[K/home/tejaswini/ros2_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[131.815s]                  from [01m[K/home/tejaswini/ros2_ws/install/controller_interface/include/controller_interface/controller_interface.hpp:22[m[K,
+[131.815s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:30[m[K:
+[131.815s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:[m[K In function ‘[01m[Kbool joint_trajectory_controller::check_state_tolerance_per_joint(const JointTrajectoryPoint&, size_t, const joint_trajectory_controller::StateTolerances&, bool)[m[K’:
+[131.815s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[131.815s]   319 |     RCLCPP_ERROR(logger, [01;35m[K"State tolerances failed for joint %d:"[m[K, [32m[Kjoint_idx[m[K);
+[131.815s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+[131.815s]       |                                                                   [32m[K|[m[K
+[131.815s]       |                                                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[131.815s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:31[m[K,
+[131.815s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K,
+[131.815s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:48[m[K:
+[131.815s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[131.816s]   319 |     RCLCPP_ERROR(logger, "State tolerances failed for joint [01;36m[K%d[m[K:", joint_idx);
+[131.816s]       |                                                             [01;36m[K~^[m[K
+[131.816s]       |                                                              [01;36m[K|[m[K
+[131.816s]       |                                                              [01;36m[Kint[m[K
+[131.816s]       |                                                             [32m[K%ld[m[K
+[135.524s] [ 85%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[137.047s] [ 85%] Built target test_load_joint_trajectory_controller
+[137.078s] [ 90%] [32mBuilding CXX object CMakeFiles/test_tolerances.dir/test/test_tolerances.cpp.o[0m
+[137.511s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/control_toolbox/include/control_toolbox/pid.hpp:41[m[K,
+[137.511s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:27[m[K,
+[137.511s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K,
+[137.511s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:27[m[K:
+[137.511s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[137.511s]    25 | #[01;35m[Kwarning[m[K \
+[137.511s]       |  [01;35m[K^~~~~~~[m[K
+[137.550s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:42[m[K,
+[137.550s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K,
+[137.550s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:27[m[K:
+[137.550s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[137.550s]    25 | #[01;35m[Kwarning[m[K \
+[137.550s]       |  [01;35m[K^~~~~~~[m[K
+[137.553s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp:43[m[K,
+[137.553s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller_utils.hpp:27[m[K,
+[137.553s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:27[m[K:
+[137.553s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_server_goal_handle.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_server_goal_handle.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[137.553s]    25 | #[01;35m[Kwarning[m[K \
+[137.554s]       |  [01;35m[K^~~~~~~[m[K
+[140.225s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[140.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[140.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[140.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[140.227s]                  from [01m[K/home/tejaswini/ros2_ws/build/joint_trajectory_controller/joint_trajectory_controller_parameters/include/joint_trajectory_controller_parameters.hpp:10[m[K,
+[140.228s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:39[m[K,
+[140.228s]                  from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:26[m[K:
+[140.229s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:[m[K In function ‘[01m[Kbool joint_trajectory_controller::check_state_tolerance_per_joint(const JointTrajectoryPoint&, size_t, const joint_trajectory_controller::StateTolerances&, bool)[m[K’:
+[140.229s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[140.230s]   319 |     RCLCPP_ERROR(logger, [01;35m[K"State tolerances failed for joint %d:"[m[K, [32m[Kjoint_idx[m[K);
+[140.230s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+[140.231s]       |                                                                   [32m[K|[m[K
+[140.231s]       |                                                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[140.232s] In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/test/test_tolerances.cpp:26[m[K:
+[140.233s] [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp:319:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[140.233s]   319 |    RCLCPP_ERROR(logger, "State tolerances failed for joint [01;36m[K%d[m[K:", joint_idx);
+[140.234s]       |                                                            [01;36m[K~^[m[K
+[140.234s]       |                                                             [01;36m[K|[m[K
+[140.235s]       |                                                             [01;36m[Kint[m[K
+[140.235s]       |                                                            [32m[K%ld[m[K
+[146.107s] [ 95%] [32m[1mLinking CXX executable test_tolerances[0m
+[146.558s] [ 95%] Built target test_tolerances
+[155.890s] [100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[157.103s] [100%] Built target test_trajectory_controller
+[157.120s] Invoked command in '/home/tejaswini/ros2_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/controller_manager/lib:/home/tejaswini/ros2_ws/install/hardware_interface_testing/lib:/home/tejaswini/ros2_ws/install/controller_interface/lib:/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_toolbox/lib:/home/tejaswini/ros2_ws/install/realtime_tools/lib:/home/tejaswini/ros2_ws/install/controller_manager_msgs/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tejaswini/ros2_ws/build/joint_trajectory_controller -- -j16 -l16
+[157.124s] Invoking command in '/home/tejaswini/ros2_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/controller_manager/lib:/home/tejaswini/ros2_ws/install/hardware_interface_testing/lib:/home/tejaswini/ros2_ws/install/controller_interface/lib:/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_toolbox/lib:/home/tejaswini/ros2_ws/install/realtime_tools/lib:/home/tejaswini/ros2_ws/install/controller_manager_msgs/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tejaswini/ros2_ws/build/joint_trajectory_controller
+[159.599s] -- Install configuration: ""
+[159.600s] -- Execute custom install script
+[159.603s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/joint_trajectory_controller_parameters.hpp
+[159.604s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller_parameters/validate_jtc_parameters.hpp
+[159.605s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+[159.606s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/interpolation_methods.hpp
+[159.606s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp
+[159.607s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp
+[159.609s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/trajectory.hpp
+[159.611s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/validate_jtc_parameters.hpp
+[159.613s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller/visibility_control.h
+[159.615s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[159.617s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[159.621s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_targets-extras.cmake
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[159.622s] -- Symlinking: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[159.622s] -- Installing: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[159.622s] -- Set runtime path of "/home/tejaswini/ros2_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[159.622s] -- Installing: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport.cmake
+[159.623s] -- Installing: /home/tejaswini/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/export_joint_trajectory_controllerExport-noconfig.cmake
+[159.624s] Invoked command in '/home/tejaswini/ros2_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/control_toolbox:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:/home/tejaswini/ros2_ws/install/task1_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/tejaswini/ros2_ws/install/controller_manager/lib:/home/tejaswini/ros2_ws/install/hardware_interface_testing/lib:/home/tejaswini/ros2_ws/install/controller_interface/lib:/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/control_toolbox/lib:/home/tejaswini/ros2_ws/install/realtime_tools/lib:/home/tejaswini/ros2_ws/install/controller_manager_msgs/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/tejaswini/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tejaswini/ros2_ws/build/joint_trajectory_controller

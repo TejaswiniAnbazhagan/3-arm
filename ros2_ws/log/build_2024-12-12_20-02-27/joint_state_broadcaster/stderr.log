@@ -1,0 +1,10 @@
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp:29[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster.cpp:15[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp:29[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/joint_state_broadcaster/test/test_joint_state_broadcaster.cpp:28[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K

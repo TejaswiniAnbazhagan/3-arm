@@ -1,0 +1,90 @@
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_box.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:39[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:40[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type tricycle_controller::TricycleController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:131:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::get(T&) const [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K’ is deprecated: Use get(const std::function<void(const T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  131 |   [01;35m[Kreceived_velocity_msg_ptr_.get(last_command_msg)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:18[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.hpp:315:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  315 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kget[m[K(T & in) const
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:[m[K In member function ‘[01m[Kvirtual tricycle_controller::CallbackReturn tricycle_controller::TricycleController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:342:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  342 |   [01;35m[Kreceived_velocity_msg_ptr_.set(std::make_shared<TwistStamped>(empty_twist))[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:18[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.hpp:262:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kset[m[K(const T & value)
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:[m[K In lambda function:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:380:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  380 |         [01;35m[Kreceived_velocity_msg_ptr_.set(std::move(msg))[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:18[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.hpp:262:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kset[m[K(const T & value)
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:[m[K In lambda function:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:398:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::get(T&) const [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K’ is deprecated: Use get(const std::function<void(const T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  398 |         [01;35m[Kreceived_velocity_msg_ptr_.get(twist_stamped)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:18[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.hpp:315:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  315 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kget[m[K(T & in) const
+      |                                                           [01;36m[K^~~[m[K
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:[m[K In member function ‘[01m[Kvirtual tricycle_controller::CallbackReturn tricycle_controller::TricycleController::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:492:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::set(const T&) [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K’ is deprecated: Use set(const std::function<void(T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  492 |   [01;35m[Kreceived_velocity_msg_ptr_.set(std::make_shared<TwistStamped>())[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:18[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/src/tricycle_controller.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.hpp:262:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  262 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kset[m[K(const T & value)
+      |                                                           [01;36m[K^~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/test/test_tricycle_controller.cpp:33[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_box.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:39[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/test/test_tricycle_controller.cpp:33[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:40[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/test/test_tricycle_controller.cpp:33[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_publisher.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/test/test_tricycle_controller.cpp:[m[K In member function ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > > TestableTricycleController::getLastReceivedTwist()[m[K’:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/test/test_tricycle_controller.cpp:51:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeBoxBase<T, mutex_type>::get(T&) const [with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void][m[K’ is deprecated: Use get(const std::function<void(const T &)> & func) instead! [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   51 |     [01;35m[Kreceived_velocity_msg_ptr_.get(ret)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.h:18[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/include/tricycle_controller/tricycle_controller.hpp:38[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/tricycle_controller/test/test_tricycle_controller.cpp:33[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_box.hpp:315:59:[m[K [01;36m[Knote: [m[Kdeclared here
+  315 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> [01;36m[Kget[m[K(T & in) const
+      |                                                           [01;36m[K^~~[m[K

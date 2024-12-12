@@ -1,0 +1,10 @@
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/uninstall.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/kinematics_interface_uninstall.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/kinematics_interface.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/test.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/edit_cache.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/rebuild_cache.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/list_install_components.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/install.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/install/local.dir
+/home/tejaswini/ros2_ws/build/kinematics_interface/CMakeFiles/install/strip.dir

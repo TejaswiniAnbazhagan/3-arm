@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000260] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000299] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000321] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.000342] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.000363] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000395] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000416] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000595] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000610] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000619] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000628] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000636] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.000644] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.000652] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.000660] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000668] (-) JobUnselected: {'identifier': 'gz_ros2_control_tests'}
+[0.000676] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000683] (-) JobUnselected: {'identifier': 'hardware_interface_testing'}
+[0.000692] (-) JobUnselected: {'identifier': 'ign_ros2_control'}
+[0.000699] (-) JobUnselected: {'identifier': 'ign_ros2_control_demos'}
+[0.000707] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000715] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.000723] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000731] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000739] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.000746] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.000754] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000762] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.000769] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000777] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000785] (-) JobUnselected: {'identifier': 'realtime_tools'}
+[0.000793] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.000801] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.000809] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.000817] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_10'}
+[0.000825] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_11'}
+[0.000833] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.000841] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_13'}
+[0.000849] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_14'}
+[0.000856] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_15'}
+[0.000865] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.000877] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.000885] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.000892] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_5'}
+[0.000900] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_6'}
+[0.000908] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.000916] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.000923] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.000932] (-) JobUnselected: {'identifier': 'ros2_control_demo_testing'}
+[0.000940] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.000947] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.000955] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000964] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000971] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.000979] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.000986] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.001013] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.001021] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.001028] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.001036] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.001044] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.001054] (task1_pkg) JobQueued: {'identifier': 'task1_pkg', 'dependencies': OrderedDict([('control_msgs', '/home/tejaswini/ros2_ws/install/control_msgs'), ('controller_manager_msgs', '/home/tejaswini/ros2_ws/install/controller_manager_msgs'), ('realtime_tools', '/home/tejaswini/ros2_ws/install/realtime_tools'), ('ros2_control_test_assets', '/home/tejaswini/ros2_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/tejaswini/ros2_ws/install/hardware_interface'), ('controller_interface', '/home/tejaswini/ros2_ws/install/controller_interface'), ('hardware_interface_testing', '/home/tejaswini/ros2_ws/install/hardware_interface_testing'), ('controller_manager', '/home/tejaswini/ros2_ws/install/controller_manager')])}
+[0.001078] (task1_pkg) JobStarted: {'identifier': 'task1_pkg'}
+[0.099346] (-) TimerEvent: {}
+[0.199663] (-) TimerEvent: {}
+[0.299967] (-) TimerEvent: {}
+[0.400281] (-) TimerEvent: {}
+[0.420719] (task1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task1_pkg', 'build', '--build-base', '/home/tejaswini/ros2_ws/build/task1_pkg/build', 'install', '--record', '/home/tejaswini/ros2_ws/build/task1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tejaswini/ros2_ws/src/task1_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tejaswini', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tejaswini/ros2_ws/install/controller_manager/lib:/home/tejaswini/ros2_ws/install/hardware_interface_testing/lib:/home/tejaswini/ros2_ws/install/controller_interface/lib:/home/tejaswini/ros2_ws/install/hardware_interface/lib:/home/tejaswini/ros2_ws/install/realtime_tools/lib:/home/tejaswini/ros2_ws/install/controller_manager_msgs/lib:/home/tejaswini/ros2_ws/install/control_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'HOME': '/home/tejaswini', 'OLDPWD': '/home/tejaswini', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '10125', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tejaswini', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tejaswini', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tejaswini-Inspiron-14-5430:@/tmp/.ICE-unix/10097,unix/tejaswini-Inspiron-14-5430:/tmp/.ICE-unix/10097', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/839175bf_a538_4307_a9ec_3c9dad820eb1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DR2JY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.325', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tejaswini/ros2_ws/build/task1_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tejaswini/ros2_ws/build/task1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages:/home/tejaswini/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/tejaswini/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tejaswini/ros2_ws/install/controller_manager:/home/tejaswini/ros2_ws/install/hardware_interface_testing:/home/tejaswini/ros2_ws/install/controller_interface:/home/tejaswini/ros2_ws/install/hardware_interface:/home/tejaswini/ros2_ws/install/ros2_control_test_assets:/home/tejaswini/ros2_ws/install/realtime_tools:/home/tejaswini/ros2_ws/install/controller_manager_msgs:/home/tejaswini/ros2_ws/install/control_msgs'}, 'shell': False}
+[0.500401] (-) TimerEvent: {}
+[0.570648] (task1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.571069] (task1_pkg) StdoutLine: {'line': b'writing ../../build/task1_pkg/task1_pkg.egg-info/PKG-INFO\n'}
+[0.571154] (task1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/task1_pkg/task1_pkg.egg-info/dependency_links.txt\n'}
+[0.571232] (task1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/task1_pkg/task1_pkg.egg-info/entry_points.txt\n'}
+[0.571295] (task1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/task1_pkg/task1_pkg.egg-info/requires.txt\n'}
+[0.571349] (task1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/task1_pkg/task1_pkg.egg-info/top_level.txt\n'}
+[0.572402] (task1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/task1_pkg/task1_pkg.egg-info/SOURCES.txt'\n"}
+[0.572957] (task1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/task1_pkg/task1_pkg.egg-info/SOURCES.txt'\n"}
+[0.573030] (task1_pkg) StdoutLine: {'line': b'running build\n'}
+[0.573064] (task1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.573117] (task1_pkg) StdoutLine: {'line': b'copying task1_pkg/controller.py -> /home/tejaswini/ros2_ws/build/task1_pkg/build/lib/task1_pkg\n'}
+[0.573172] (task1_pkg) StdoutLine: {'line': b'running install\n'}
+[0.573371] (task1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.573938] (task1_pkg) StdoutLine: {'line': b'copying /home/tejaswini/ros2_ws/build/task1_pkg/build/lib/task1_pkg/controller.py -> /home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg\n'}
+[0.574115] (task1_pkg) StdoutLine: {'line': b'byte-compiling /home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg/controller.py to controller.cpython-310.pyc\n'}
+[0.574798] (task1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.574873] (task1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.576071] (task1_pkg) StdoutLine: {'line': b"removing '/home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.576133] (task1_pkg) StdoutLine: {'line': b'Copying ../../build/task1_pkg/task1_pkg.egg-info to /home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg-0.0.0-py3.10.egg-info\n'}
+[0.576473] (task1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.590043] (task1_pkg) StdoutLine: {'line': b'Installing controller script to /home/tejaswini/ros2_ws/install/task1_pkg/lib/task1_pkg\n'}
+[0.590183] (task1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/tejaswini/ros2_ws/build/task1_pkg/install.log'\n"}
+[0.600482] (-) TimerEvent: {}
+[0.604381] (task1_pkg) CommandEnded: {'returncode': 0}
+[0.614756] (task1_pkg) JobEnded: {'identifier': 'task1_pkg', 'rc': 0}
+[0.615229] (-) EventReactorShutdown: {}

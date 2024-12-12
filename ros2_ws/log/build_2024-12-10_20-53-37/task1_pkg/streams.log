@@ -1,0 +1,31 @@
+[0.382s] Invoking command in '/home/tejaswini/ros2_ws/src/task1_pkg': PYTHONPATH=/home/tejaswini/ros2_ws/build/task1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task1_pkg build --build-base /home/tejaswini/ros2_ws/build/task1_pkg/build install --record /home/tejaswini/ros2_ws/build/task1_pkg/install.log --single-version-externally-managed install_data
+[0.525s] running egg_info
+[0.525s] creating ../../build/task1_pkg/task1_pkg.egg-info
+[0.525s] writing ../../build/task1_pkg/task1_pkg.egg-info/PKG-INFO
+[0.525s] writing dependency_links to ../../build/task1_pkg/task1_pkg.egg-info/dependency_links.txt
+[0.525s] writing entry points to ../../build/task1_pkg/task1_pkg.egg-info/entry_points.txt
+[0.525s] writing requirements to ../../build/task1_pkg/task1_pkg.egg-info/requires.txt
+[0.525s] writing top-level names to ../../build/task1_pkg/task1_pkg.egg-info/top_level.txt
+[0.525s] writing manifest file '../../build/task1_pkg/task1_pkg.egg-info/SOURCES.txt'
+[0.526s] reading manifest file '../../build/task1_pkg/task1_pkg.egg-info/SOURCES.txt'
+[0.527s] writing manifest file '../../build/task1_pkg/task1_pkg.egg-info/SOURCES.txt'
+[0.527s] running build
+[0.527s] running build_py
+[0.527s] creating /home/tejaswini/ros2_ws/build/task1_pkg/build
+[0.527s] creating /home/tejaswini/ros2_ws/build/task1_pkg/build/lib
+[0.527s] creating /home/tejaswini/ros2_ws/build/task1_pkg/build/lib/task1_pkg
+[0.527s] copying task1_pkg/__init__.py -> /home/tejaswini/ros2_ws/build/task1_pkg/build/lib/task1_pkg
+[0.527s] running install
+[0.527s] running install_lib
+[0.528s] creating /home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg
+[0.528s] copying /home/tejaswini/ros2_ws/build/task1_pkg/build/lib/task1_pkg/__init__.py -> /home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg
+[0.528s] byte-compiling /home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages/task1_pkg/__init__.py to __init__.cpython-310.pyc
+[0.528s] running install_data
+[0.528s] creating /home/tejaswini/ros2_ws/install/task1_pkg/share/ament_index
+[0.528s] creating /home/tejaswini/ros2_ws/install/task1_pkg/share/ament_index/resource_index
+[0.528s] creating /home/tejaswini/ros2_ws/install/task1_pkg/share/ament_index/resource_index/packages
+[0.528s] copying resource/task1_pkg -> /home/tejaswini/ros2_ws/install/task1_pkg/share/ament_index/resource_index/packages
+[0.528s] copying package.xml -> /home/tejaswini/ros2_ws/install/task1_pkg/share/task1_pkg
+[0.528s] creating /home/tejaswini/ros2_ws/install/task1_pkg/share/task1_pkg/urdf
+[0.528s] error: can't copy 'urdf/bot.urdf.xacro': doesn't exist or not a regular file
+[0.541s] Invoked command in '/home/tejaswini/ros2_ws/src/task1_pkg' returned '1': PYTHONPATH=/home/tejaswini/ros2_ws/build/task1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/task1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task1_pkg build --build-base /home/tejaswini/ros2_ws/build/task1_pkg/build install --record /home/tejaswini/ros2_ws/build/task1_pkg/install.log --single-version-externally-managed install_data

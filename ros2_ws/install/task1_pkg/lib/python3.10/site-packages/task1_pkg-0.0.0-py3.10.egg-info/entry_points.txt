@@ -1,0 +1,3 @@
+[console_scripts]
+controller = task1_pkg.controller:main
+

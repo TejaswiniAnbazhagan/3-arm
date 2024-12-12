@@ -1,0 +1,35 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp:25[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.cpp:15[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp:25[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_hardware_spawner.cpp:25[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/ros2_control_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/ros2_control_node.cpp:62:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool realtime_tools::lock_memory(std::string&)[m[K’ is deprecated: Use std::pair<bool, std::string> lock_memory() instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |   if (lock_memory && ![01;35m[Krealtime_tools::lock_memory(message)[m[K)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/src/ros2_control_node.cpp:24[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_helpers.hpp:70:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   70 | bool [01;36m[Klock_memory[m[K(std::string & message);
+      |      [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp:25[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_spawner_unspawner.cpp:26[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp:25[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_controller_manager_srvs.cpp:29[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_chainable_controller/test_chainable_controller.hpp:25[m[K,
+                 from [01m[K/home/tejaswini/ros2_ws/src/ros-controls/ros2_control/controller_manager/test/test_controllers_chaining_with_controller_manager.cpp:27[m[K:
+[01m[K/home/tejaswini/ros2_ws/src/ros-controls/realtime_tools/include/realtime_tools/realtime_buffer.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header." [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   25 | #[01;35m[Kwarning[m[K \
+      |  [01;35m[K^~~~~~~[m[K

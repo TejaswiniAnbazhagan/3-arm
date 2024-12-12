@@ -1,0 +1,42 @@
+[0.739s] Invoking command in '/home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build
+[0.907s] running develop
+[1.002s] Removing /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[1.020s] Invoked command in '/home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build
+[1.022s] Invoking command in '/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_controllers_test_nodes build --build-base /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build install --record /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data --force
+[1.177s] running egg_info
+[1.178s] writing ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[1.178s] writing dependency_links to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[1.178s] writing entry points to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[1.178s] writing requirements to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[1.178s] writing top-level names to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[1.179s] reading manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.179s] writing manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.180s] running build
+[1.180s] running build_py
+[1.180s] creating /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build
+[1.180s] creating /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib
+[1.180s] creating /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.180s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.180s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.180s] copying ros2_controllers_test_nodes/__init__.py -> /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[1.180s] running install
+[1.180s] running install_lib
+[1.181s] creating /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.181s] copying /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.181s] copying /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.181s] copying /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[1.181s] byte-compiling /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-310.pyc
+[1.182s] byte-compiling /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-310.pyc
+[1.183s] byte-compiling /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-310.pyc
+[1.183s] running install_data
+[1.183s] copying resource/ros2_controllers_test_nodes -> /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[1.183s] copying package.xml -> /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[1.183s] copying test/rrbot_forward_position_publisher.yaml -> /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[1.183s] copying test/rrbot_joint_trajectory_publisher.yaml -> /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[1.183s] running install_egg_info
+[1.185s] Copying ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.39.0-py3.10.egg-info
+[1.185s] running install_scripts
+[1.199s] Installing publisher_forward_position_controller script to /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.200s] Installing publisher_joint_trajectory_controller script to /home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.200s] writing list of installed files to '/home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/install.log'
+[1.219s] Invoked command in '/home/tejaswini/ros2_ws/src/ros-controls/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tejaswini/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_controllers_test_nodes build --build-base /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/build install --record /home/tejaswini/ros2_ws/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data --force
